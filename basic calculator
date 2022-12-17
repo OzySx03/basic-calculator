@@ -1,0 +1,18 @@
+def calculator(operation, operand1, operand2):
+  if operation == "add":
+    return operand1 + operand2
+  elif operation == "subtract":
+    return operand1 - operand2
+  elif operation == "multiply":
+    return operand1 * operand2
+  elif operation == "divide":
+    return operand1 / operand2
+  else:
+    return "Invalid operation"
+
+# Test the calculator
+print(calculator("add", 1, 2))
+print(calculator("subtract", 5, 3))
+print(calculator("multiply", 4, 5))
+print(calculator("divide", 10, 5))   
+print(calculator("foo", 5, 3))
